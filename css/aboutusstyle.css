@@ -1,0 +1,22 @@
+.jumbotron{
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: #9575CD;
+  color: floralwhite;
+}
+
+.footer{
+  background-color: #D1C4E9;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+}
+
+address{
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+.container{
+  margin-bottom: 50px;
+}
+
