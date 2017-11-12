@@ -7,7 +7,7 @@
   margin:0 auto;
   padding: 50px 0px 50px 0px;
   border-bottom: 1px ridge;
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .footer{
@@ -18,12 +18,12 @@
 
 .jumbotron{
   padding: 70px 30px 70px 30px;
-  margin: 0px auto;
+  margin: 0 auto;
   background: #9575CD;
   color: floralwhite;
 }
 
-address{
+.address{
   font-size: 80%;
   margin: 0px;
   color: #0f0f0f;
@@ -31,4 +31,14 @@ address{
 
 .copyright{
   margin: 20px;
+}
+
+
+
+body{
+  padding: 50px 0 0 0;
+  z-index:0;
+}
+.navbar-inverse{
+  background-color: #512DA8;
 }
