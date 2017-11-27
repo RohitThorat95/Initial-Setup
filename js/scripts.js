@@ -15,4 +15,20 @@ $(document).ready(function(){
         $("#carousel-button").children("span").addClass('fa-pause');
       }
   });
+
+  $("#log").on('click',function(e){
+    e.preventDefault();
+    // console.log("click");
+   $("#loginModal").modal('show');
+
+  });
+
+  $("#resmod").on('click',function(e){
+    e.preventDefault();
+    // console.log("click");
+   $("#reserveModal").modal('show');
+
+  });
+
+
 });

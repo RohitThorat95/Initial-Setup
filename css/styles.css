@@ -29,7 +29,7 @@ body {
   z-index: 0; }
 
 .navbar-inverse {
-  background-color: #512DA8; }
+  background: #512DA8; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -51,3 +51,16 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+#loginModal .modal-header, #reserveModal .modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+
+#loginModal .modal-body, #reserveModal .modal-body {
+  background: #D1C4E9; }
+
+#loginModal .modal-footer, #reserveModal .modal-footer {
+  background: #9575CD; }
+
+#loginModal .close, #reserveModal .close {
+  color: floralwhite; }
